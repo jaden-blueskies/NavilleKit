@@ -6,6 +6,7 @@
 //
 
 // MARK: - Presentable
+@MainActor
 public protocol NVPresentable: AnyObject {
     associatedtype Screen
     associatedtype PresentOptions: NVPresentOptions

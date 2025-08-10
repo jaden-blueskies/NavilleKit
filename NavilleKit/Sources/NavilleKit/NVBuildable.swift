@@ -6,6 +6,7 @@
 //
 
 // MARK: - Buildable
+@MainActor
 public protocol NVBuildable: AnyObject {
     associatedtype Screen
     associatedtype Options: NVBuildOptions

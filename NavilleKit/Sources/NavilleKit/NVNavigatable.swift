@@ -6,6 +6,7 @@
 //
 
 // MARK: - Navigatable
+@MainActor
 public protocol NVNavigatable: AnyObject where
 Builder.Screen == Presenter.Screen,
 Builder.Screen == OpenResult.Screen,
